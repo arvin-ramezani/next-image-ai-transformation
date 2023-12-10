@@ -271,7 +271,7 @@ export default function Example() {
               <li>
                 <h3 className='mb-3 text-gray-400'>Select</h3>
                 <CldUploadButton
-                  uploadPreset='friendsbook'
+                  uploadPreset='ml_default'
                   className='rounded-lg bg-white px-3 py-1 text-sm font-medium text-gray-900'
                   onClick={() => {
                     setResource(undefined)
